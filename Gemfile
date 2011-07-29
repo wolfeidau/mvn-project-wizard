@@ -29,3 +29,4 @@ gem 'jquery-rails'
 
 gem 'therubyracer'
 gem 'execjs'
+gem 'backbone-rails'
