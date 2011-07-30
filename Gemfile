@@ -11,8 +11,8 @@ gem 'pg'
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
-  gem 'sass-rails', "~> 3.1.0.rc"
-  gem 'coffee-rails', "~> 3.1.0.rc"
+  gem 'sass-rails', '~> 3.1.0.rc'
+  gem 'coffee-rails', '~> 3.1.0.rc'
   gem 'uglifier'
 end
 
@@ -30,3 +30,12 @@ gem 'jquery-rails'
 gem 'therubyracer'
 gem 'execjs'
 gem 'backbone-rails'
+gem 'modernizr-rails'
+
+gem 'rspec-rails', :group => [:test, :development]
+
+group :test do
+  gem 'factory_girl_rails'
+  gem 'capybara'
+  gem 'guard-rspec'
+end
