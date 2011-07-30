@@ -3,8 +3,17 @@
  * and any sub-directories. You're free to add application-wide styles to this file and they'll appear at
  * the top of the compiled file, but it's generally better to create a new file per style scope.
  *= require_self
- *= require_tree . 
+ *= require_tree .
+ *= require formalize
+
+    Primary Color:
+    BED2D9	949FA3	3E798D	D6E7EC	DCE8EC
+
+    Complementary Color:
+    FFEFDE	BFB6AD	A67848	FFF3E6	FFF6ED
 */
+
+
 
 /* persistence pays */
 $persistence: #F7F9FE;
@@ -20,6 +29,8 @@ $free: #CBDBE0;
 
 /* breath then */
 $breath: #BED2D9;
+
+$heading: #3E798D;
 
 /* =============================================================================
    HTML5 display definitions
@@ -79,7 +90,16 @@ sub { bottom: -0.25em; }
 
 /* =============================================================================
    Site Specific Styles
+h1 {padding: 20px;text-shadow: 2px 2px 2px #aaa;}
    ========================================================================== */
-header {background: $free;}
+
+#container {font-family: 'Molengo', arial, serif;}
+
+header {background: $free;border-bottom: 3px solid $breath;}
 header > div {margin: 0 auto; width: 960px;height: 120px;}
-header > h1 {padding: 20px}
+
+h1 {color: $heading; padding-top: 20px;text-shadow: 1px 1px 1px $handsome; font-size: 4em; margin: 0;}
+
+#main {margin: 0 auto; width: 960px;min-height: 400px;}
+
+footer > div {margin: 0 auto; width: 960px;height: 20px;text-align: center;}

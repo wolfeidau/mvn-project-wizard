@@ -31,6 +31,7 @@ gem 'therubyracer'
 gem 'execjs'
 gem 'backbone-rails'
 gem 'modernizr-rails'
+gem 'formalize-rails'
 
 gem 'rspec-rails', :group => [:test, :development]
 
