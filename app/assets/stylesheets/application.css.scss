@@ -103,3 +103,10 @@ h1 {color: $heading; padding-top: 20px;text-shadow: 1px 1px 1px $handsome; font-
 #main {margin: 0 auto; width: 960px;min-height: 400px;}
 
 footer > div {margin: 0 auto; width: 960px;height: 20px;text-align: center;}
+
+#app-wrapper {width: 77%;float: left; padding: 20px;}
+#nav-wrapper {width: 23%;float: right; padding: 20px;}
+
+nav#sidebar {text-shadow: 0 1px #222}
+
+#sidebar > ul {margin: 0; padding: 0; list-style-type: none;}
