@@ -98,15 +98,18 @@ h1 {padding: 20px;text-shadow: 2px 2px 2px #aaa;}
 header {background: $free;border-bottom: 3px solid $breath;}
 header > div {margin: 0 auto; width: 960px;height: 120px;}
 
-h1 {color: $heading; padding-top: 20px;text-shadow: 1px 1px 1px $handsome; font-size: 4em; margin: 0;}
+h1 {color: $heading; padding-top: 20px; font-size: 4em; margin: 0;}
 
 #main {margin: 0 auto; width: 960px;min-height: 400px;}
 
 footer > div {margin: 0 auto; width: 960px;height: 20px;text-align: center;}
 
-#app-wrapper {width: 77%;float: left; padding: 20px;}
-#nav-wrapper {width: 23%;float: right; padding: 20px;}
+#app-wrapper {width: 77%;float: left; margin: 0;}
+#nav-wrapper {width: 23%;float: right; margin: 0;}
 
-nav#sidebar {text-shadow: 0 1px #222}
+nav#sidebar {padding:20px}
 
 #sidebar > ul {margin: 0; padding: 0; list-style-type: none;}
+
+#sidebar li {font-size: 1.5em; padding: 10px 0 10px 0px; border-bottom: 1px dotted #222;}
+
