@@ -13,7 +13,17 @@
     FFEFDE	BFB6AD	A67848	FFF3E6	FFF6ED
 */
 
+$prim_one: #BED2D9;
+$prim_two: #949FA3;
+$prim_three: #3E798D;
+$prim_four: #D6E7EC;
+$prim_five: #DCE8EC;
 
+$comp_one: #FFEFDE;
+$comp_two: #BFB6AD;
+$comp_three: #A67848;
+$comp_four: #FFF3E6;
+$comp_five: #FFF6ED;
 
 /* persistence pays */
 $persistence: #F7F9FE;
@@ -98,7 +108,7 @@ h1 {padding: 20px;text-shadow: 2px 2px 2px #aaa;}
 header {background: $free;border-bottom: 3px solid $breath;}
 header > div {margin: 0 auto; width: 960px;height: 120px;}
 
-h1 {color: $heading; padding-top: 20px; font-size: 4em; margin: 0;}
+header h1 {color: $prim_three; padding-top: 20px; font-size: 4em; margin: 0;text-shadow: 1px 1px 1px $prim_two;}
 
 #main {margin: 0 auto; width: 960px;min-height: 400px;}
 
@@ -112,4 +122,42 @@ nav#sidebar {padding:20px}
 #sidebar > ul {margin: 0; padding: 0; list-style-type: none;}
 
 #sidebar li {font-size: 1.5em; padding: 10px 0 10px 0px; border-bottom: 1px dotted #222;}
+#sidebar h2 {color: $comp_three}
 
+div.pallet > ul {margin: 0; padding: 10; width: 100px; list-style-type: none;}
+
+li.primone {background-color: $prim_one;padding: 10px;}
+li.primtwo {background-color: $prim_two;padding: 10px;}
+li.primthree {background-color: $prim_three;padding: 10px;}
+li.primfour {background-color: $prim_four;padding: 10px;}
+li.primfive {background-color: $prim_five;padding: 10px;}
+
+li.compone {background-color: $comp_one;padding: 10px;}
+li.comptwo {background-color: $comp_two;padding: 10px;}
+li.compthree {background-color: $comp_three;padding: 10px;}
+li.compfour {background-color: $comp_four;padding: 10px;}
+li.compfive {background-color: $comp_five;padding: 10px;}
+
+
+a.metaboxhover {background: $prim_three;color: $prim_four;}
+
+.metabox {
+border: 1px solid #D4D4D4;
+color: #666;
+display: block;
+width: 120px;
+text-align: center;
+font-size: 15px;
+font-weight: bold;
+line-height: 15px;
+margin-bottom: 10px;
+padding: 10px 15px 10px 16px;
+border-radius: 5px;
+background: #ECECEC;
+background: -webkit-gradient(linear,center bottom,center top,from(#ECECEC),to(#F4F4F4));
+background: -moz-linear-gradient(90deg,#ECECEC,#F4F4F4);
+-moz-border-radius: 5px;
+-moz-box-shadow: 0 1px 0 #ECECEC;
+-webkit-box-shadow: 0 1px 0 #ECECEC;
+filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#F4F4F4',endColorstr='#ECECEC');
+}
