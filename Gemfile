@@ -1,6 +1,6 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.1.0.rc5'
+gem 'rails', '3.1.0.rc6'
 
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
@@ -29,9 +29,6 @@ gem 'jquery-rails'
 
 gem 'therubyracer'
 gem 'execjs'
-gem 'backbone-rails'
-gem 'modernizr-rails'
-gem 'formalize-rails'
 
 gem 'rspec-rails', :group => [:test, :development]
 
@@ -39,4 +36,5 @@ group :test do
   gem 'factory_girl_rails'
   gem 'capybara'
   gem 'guard-rspec'
+  gem 'libnotify'
 end
